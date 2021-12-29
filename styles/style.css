@@ -1,0 +1,33 @@
+html{
+	font-size: 11px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #14A9FA; /* this changes the colour of the page*/
+}
+	h1 {
+		font-size: 20px;
+		text-align: centre; /* This aligns the text from the heading in the centre of the page*/
+		margin: 0; /* this is to eliminate the default styling that a broweser will apply for us */
+		padding: 20px 0 20px; /* Sets the padding on the bottom and top to 20pixels */
+		text-shadow: 3px 3px 1px blue; /* First pixel sets the horizontal offset of the shadow, i.e how far the shadow moves across from the text
+		the second pixel value sets the verical offset for the shadow. This is how far the shadow moves down from the text.
+		The third pixel value sets the blur radius of the shadow. A higher value makes a more fuzzy looking shadow.
+		The fourth value, set's the base colour of the shadow */
+	}
+	p, li {
+		font-size: 13px; /* Changes the size of the font for all paragraths and lists*/
+		line-height: 3; /* Set's the height of the lines */
+		letter-spacing: 1px; /* In pixels, the amount of space vissually represneted by a space in the text i.e spacebar*/
+	}
+	body {
+		width 600px; /* This forces the width of the main body to always be 600 pixels in with when on the page */
+		margin: 0 auto; /* The first value, 0 will effect the top and bottom side, so 0 in this case. The second value affects the left and right sides*/
+		/* Auto is a special value, it dvides the space horizontally equally between left and right */
+		padding: 0 20px 20px 20px; /* This ses four values for padding. We pad to put space around content. Here we will have no padding on the top of the body, but 20 pixels of padding on the bottom, left and right */
+		border: 5px solid black; /* this sets the value for the width style and colour of the main border. Here we have five pixels wide, a solid black colour on all sides of the body */
+	}
+	img {
+		display: block; /* Block means it takes up space on a page. The margin applied to the block element shall be respected by other element's on the page. As images are inline for the auto margin to work we must give it block behaviour */
+		margin: 0 auto; 
+		height: 1000px;
+		width: 1350px;
+	}
